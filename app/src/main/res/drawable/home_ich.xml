@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:drawable="@drawable/ic_home"
+        android:width="@dimen/ich"
+        android:height="@dimen/ich"
+        android:top="@dimen/icp"
+        android:left="@dimen/icp"
+        android:right="@dimen/icp"
+        android:bottom="@dimen/icp"
+
+        />
+
+</layer-list >

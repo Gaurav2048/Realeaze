@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Client name"
+    android:textColor="#000"
+    android:layout_marginTop="29dp"
+    android:layout_marginLeft="15dp"
+    android:id="@+id/remark_name"
+    android:textSize="18dp"
+    android:layout_alignParentLeft="true"
+    android:drawablePadding="7dp"
+    android:drawableLeft="@drawable/client_remark"
+
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginRight="30dp"
+        android:id="@+id/status"
+        android:layout_marginTop="28dp"
+        android:textSize="20dp"
+        android:layout_alignParentRight="true"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/date"
+        android:drawablePadding="17dp"
+        android:layout_below="@+id/remark_name"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:textSize="14dp"
+        android:text="jan 8, 2018"
+        android:layout_marginBottom="25dp"
+        android:drawableLeft="@drawable/calender_icon"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/date"
+
+        android:layout_alignBottom="@+id/date"
+        android:layout_alignStart="@+id/status"
+      android:textSize="14dp"
+        android:text="Next Visit" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#dfdfdf"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="actionbar">#F9524F</color>
+    <color name="colorPrimary">#F75D43</color>
+    <color name="colorPrimaryDark">#F75D43</color>
+    <color name="dialog_action_bar_color">#FFFFFF</color>
+    <color name="seekbar_unselected">#D2D2D2</color>
+    <color name="full_dial_color">#cbcbcb</color>
+    <color name="white_full">#ffffff</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="desc_color">#cfcbcb</color>
+    <color name="backgroung">#ECEFF4</color>
+</resources>

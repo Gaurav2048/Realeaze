@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="search for names"
+    android:textColor="#cbcbcb"
+    android:drawablePadding="7dp"
+    android:textSize="20dp"
+    android:layout_marginTop="30dp"
+    android:drawableLeft="@drawable/client_remark"
+    android:layout_marginLeft="30dp"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="search for names"
+        android:textColor="#cbcbcb"
+        android:drawablePadding="7dp"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:drawableLeft="@drawable/cicle_icon"
+
+        android:drawableRight="@drawable/ic_ar_bottom"
+        android:layout_gravity="center"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+           android:drawablePadding="5dp"
+            android:drawableLeft="@drawable/date_icon"
+            android:textColor="#cbcbcb"
+            android:text="08-10-2018"
+            android:layout_marginLeft="30dp"
+            android:textSize="16dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginBottom="35dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="5dp"
+            android:drawableLeft="@drawable/time_icon"
+            android:textColor="#cbcbcb"
+            android:text="12.00 PM"
+            android:textSize="16dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginBottom="35dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+
+        >
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="7dp"
+            android:src="@drawable/ic_comment"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:id="@+id/dat_comment"
+            android:background="@drawable/ed_text"
+            android:hint="Comment will be here"
+            android:textStyle="italic"
+            android:padding="5dp"
+            android:textColor="#000"
+            android:textColorHint="#cbcbcb"
+            android:textSize="14dp"
+            android:gravity="top"
+            />
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:text="Submit Remark"
+        android:paddingLeft="48dp"
+        android:textColor="#fff"
+        android:paddingRight="48dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="20dp"
+        android:elevation="4dp"
+        android:layout_gravity="center"
+        android:paddingTop="10dp"
+        android:background="@drawable/corner_button"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+
+        />
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.realeaze.realeaze.fragments.Progress.GraphprojectFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+   <FrameLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/layout__"
+       android:orientation="vertical"
+       android:layout_gravity="center"
+       >
+       <android.support.design.widget.TabLayout
+           android:id="@+id/tabs"
+           android:layout_width="match_parent"
+           android:layout_height="40dp"
+           android:background="#EBEEF3"
+           android:layout_gravity="top"
+           app:tabGravity="fill"
+           app:tabIndicatorHeight="0dp"
+           app:tabMode="scrollable" />
+
+       <com.github.mikephil.charting.charts.LineChart
+           android:id="@+id/chart"
+           android:layout_marginTop="40dp"
+           android:layout_width="match_parent"
+           android:layout_height="200dp"
+           android:layout_gravity="bottom"
+           android:background="#F5F6FA" />
+
+
+   </FrameLayout>
+
+</FrameLayout>

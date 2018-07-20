@@ -1,0 +1,216 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#eaeaea"
+    tools:context="com.realeaze.realeaze.fragments.project.AmenityFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="horizontal"
+       android:layout_weight="1"
+       >
+       <LinearLayout
+            android:layout_marginRight="0.5dp"
+            android:layout_marginBottom="0.5dp"
+           android:background="#fff"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           android:id="@+id/swim_"
+           android:orientation="vertical"
+           >
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_marginLeft="@dimen/pad_img_amenity"
+           android:layout_marginTop="@dimen/pad_img_amenity"
+           android:layout_marginRight="@dimen/pad_img_amenity"
+
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           android:src="@drawable/ic_swim"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="SWIMMING POOL"
+           android:textColor="@color/colorPrimary"
+           android:gravity="center"
+           android:padding="@dimen/text_pang"
+           android:textSize="@dimen/amenity_textsz"
+           />
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           android:id="@+id/gym_"
+            android:layout_marginRight="0.5dp"
+           android:background="#fff"
+
+           android:layout_marginLeft="0.5dp"
+           android:layout_marginBottom="0.5dp"
+           android:orientation="vertical"
+           >
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_weight="1"
+               android:src="@drawable/ic_gym"
+               android:layout_marginLeft="@dimen/pad_img_amenity"
+               android:layout_marginTop="@dimen/pad_img_amenity"
+               android:layout_marginRight="@dimen/pad_img_amenity"
+
+               />
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="GYMNESIUM"
+               android:textColor="@color/colorPrimary"
+               android:gravity="center"
+               android:padding="@dimen/text_pang"
+               android:textSize="@dimen/amenity_textsz"
+               />
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           android:id="@+id/chidern_"
+            android:layout_marginRight="1dp"
+           android:background="#fff"
+
+           android:layout_marginLeft="0.5dp"
+           android:layout_marginBottom="0.5dp"
+           android:orientation="vertical"
+           >
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_weight="1"
+               android:src="@drawable/ic_chid"
+               android:layout_marginLeft="@dimen/pad_img_amenity"
+               android:layout_marginTop="@dimen/pad_img_amenity"
+               android:layout_marginRight="@dimen/pad_img_amenity"
+
+               />
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="CHILDERN PARK"
+               android:textColor="@color/colorPrimary"
+               android:gravity="center"
+               android:padding="@dimen/text_pang"
+               android:textSize="@dimen/amenity_textsz"
+               />
+       </LinearLayout>
+
+   </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0.5dp"
+            android:layout_marginRight="0.5dp"
+             android:background="#fff"
+
+             android:layout_weight="1"
+            android:id="@+id/parking_"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/pad_img_amenity"
+                android:layout_marginTop="@dimen/pad_img_amenity"
+                android:layout_marginRight="@dimen/pad_img_amenity"
+
+                android:layout_weight="1"
+                android:src="@drawable/ic_parking"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PARKING SPACE"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center"
+                android:padding="@dimen/text_pang"
+                android:textSize="@dimen/amenity_textsz"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/lift_"
+            android:layout_marginTop="0.5dp"
+            android:layout_marginRight="0.5dp"
+            android:background="#fff"
+
+            android:layout_marginLeft="0.5dp"
+             android:orientation="vertical"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/pad_img_amenity"
+                android:layout_marginTop="@dimen/pad_img_amenity"
+                android:layout_marginRight="@dimen/pad_img_amenity"
+                android:layout_weight="1"
+                android:src="@drawable/ic_lift"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LIFT"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center"
+                android:padding="@dimen/text_pang"
+                android:textSize="@dimen/amenity_textsz"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/doctor_"
+            android:layout_marginTop="0.5dp"
+             android:layout_marginLeft="0.5dp"
+            android:background="#fff"
+
+             android:orientation="vertical"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/pad_img_amenity"
+                android:layout_marginTop="@dimen/pad_img_amenity"
+                android:layout_marginRight="@dimen/pad_img_amenity"
+
+                android:layout_weight="1"
+                android:src="@drawable/ic_doctor"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DOCTOR'S CLINIC"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center"
+                android:padding="@dimen/text_pang"
+                android:textSize="@dimen/amenity_textsz"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

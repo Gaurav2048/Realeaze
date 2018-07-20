@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppThemeTwo" parent="Theme.AppCompat.Light">
+        <item name="android:colorControlActivated">#000</item>
+        <item name="android:colorControlNormal">#a9a9a9</item>
+    </style>
+
+
+</resources>
